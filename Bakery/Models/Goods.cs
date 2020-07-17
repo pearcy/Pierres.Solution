@@ -61,7 +61,7 @@ namespace Bakery.Models
           }
            else if (qty % 3 != 0) 
           {
-            price = (basePastry * (qty-1)) - ((qty/3) * basePastry) + basePastry;
+            price = ((qty-1)/3)*5+basePastry;
           }
           else 
           {
