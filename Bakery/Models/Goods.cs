@@ -20,11 +20,11 @@ namespace Bakery.Models
           {
             price = 10;
           }
-          else if (qty % 3 == 0)  // works for qty of 3 & 6
+          else if (qty % 3 == 0)  
           {
             price = (baseBread * qty) - ((qty/3) * baseBread);
           }
-           else if (qty % 3 != 0) // test for qty 4, 5, 7
+           else if (qty % 3 != 0) 
           {
             price = (baseBread * (qty-1)) - ((qty/3) * baseBread) + baseBread;
           }
@@ -59,10 +59,10 @@ namespace Bakery.Models
           {
             price = (qty/3) * 5;
           }
-          //  else if (qty % 3 != 0) 
-          // {
-          //   price = (basePastry * (qty-1)) - ((qty/3) * basePastry) + basePastry;
-          // }
+           else if (qty % 3 != 0) 
+          {
+            price = (basePastry * (qty-1)) - ((qty/3) * basePastry) + basePastry;
+          }
           else 
           {
             price = 0;
