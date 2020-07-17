@@ -21,14 +21,16 @@ The application will return the total cost of the order.
 
 Pierre offers the following deals:
 
-Bread: Buy 2, get 1 free. A single loaf costs $5.
-Pastry: Buy 1 for \$2 or 3 for $5.
-All functionality for the models should be tested.
+- Bread: Buy 2, get 1 free. A single loaf costs $5.
+- Pastry: Buy 1 for $2 or 3 for $5.
 
 
-| Behavior | Input | Output |  Completed(Y/N?)  |
-| -------- | ----- | ------ | -------- |
-|        |    |        
+| Behavior | Input | Output |
+| -------- | ----- | ------ |
+|    How many loafs of Bread?   |  1  |  $5 | 
+|    How many loafs of Bread?   |  2  |  $5 | 
+|    How many loafs of Bread?   |  3  |  $10 | 
+
 
 
 ## Setup/Installation Requirements

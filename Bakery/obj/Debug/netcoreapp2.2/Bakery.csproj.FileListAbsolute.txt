@@ -1,0 +1,9 @@
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery/bin/Debug/netcoreapp2.2/Bakery.deps.json
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery/bin/Debug/netcoreapp2.2/Bakery.dll
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery/bin/Debug/netcoreapp2.2/Bakery.pdb
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.csprojAssemblyReference.cache
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.csproj.CoreCompileInputs.cache
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.AssemblyInfoInputs.cache
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.AssemblyInfo.cs
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.dll
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.pdb
