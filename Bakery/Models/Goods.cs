@@ -45,11 +45,11 @@ namespace Bakery.Models
     public int GetPastryPrice(int qty)
     {
 
-      int basePastry = 2; 
+      // int basePastry = 2; 
       
         if (qty == 1)
           {
-            price = 0;
+            price = 2;
           }
           // else if (qty == 2)
           // {
