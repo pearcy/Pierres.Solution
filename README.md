@@ -31,6 +31,10 @@ Pierre offers the following deals:
 |    How many loafs of Bread?   |  2  |  $5 | 
 |    How many loafs of Bread?   |  3  |  $10 | 
 |    How many loafs of Bread?   |  4  |  $10 | 
+|    How many Pastries?   |  1  |  $2 | 
+|    How many Pastries?   |  2  |  $4 | 
+|    How many Pastries?   |  3  |  $5 | 
+|    How many Pastries?   |  4  |  $7 | 
 
 
 
