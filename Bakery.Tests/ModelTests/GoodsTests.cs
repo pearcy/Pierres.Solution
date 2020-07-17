@@ -16,15 +16,13 @@ namespace Bakery.Tests
     }
 
 
-
-    // [TestMethod]
-    // public void Bakery_GetPrice_BreadPrice()
-    // {
-    // Bread tester = new Bread();
-    // int qty = tester.GetPrice("one");
-    // Assert.AreEqual(5, qty)
-    // }
-
+    [TestMethod]
+    public void Bakery_GetPrice_BreadPrice()
+    {
+    Bread tester = new Bread();
+    int qty = tester.GetPrice(1);
+    Assert.AreEqual(5, qty);
+    }
 
 
   }
