@@ -51,10 +51,10 @@ namespace Bakery.Models
           {
             price = 2;
           }
-          // else if (qty == 2)
-          // {
-          //   price = 4;
-          // }
+          else if (qty == 2)
+          {
+            price = 4;
+          }
           // else if (qty % 3 == 0)  // works for qty of 3 & 6
           // {
           //   price = (basePastry * qty) - ((qty/3) * basePastry);
