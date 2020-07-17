@@ -11,15 +11,13 @@ namespace Bakery.Tests
     public void Bakery_GetPrice_BreadPrice()
     {
     Bread tester = new Bread();
-    int price = tester.GetPrice("one");
-    Assert.AreEqual(5, price)
+    int qty = tester.GetPrice("one");
+    Assert.AreEqual(5, qty)
     }
 
 
 
   }
-   
-
 }
 
 
