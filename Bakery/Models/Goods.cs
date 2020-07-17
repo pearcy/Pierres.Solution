@@ -45,7 +45,7 @@ namespace Bakery.Models
     public int GetPastryPrice(int qty)
     {
 
-      // int basePastry = 2; 
+      int basePastry = 2; 
       
         if (qty == 1)
           {
@@ -55,11 +55,11 @@ namespace Bakery.Models
           {
             price = 4;
           }
-          // else if (qty % 3 == 0)  // works for qty of 3 & 6
-          // {
-          //   price = (basePastry * qty) - ((qty/3) * basePastry);
-          // }
-          //  else if (qty % 3 != 0) // test for qty 4, 5, 7
+          else if (qty % 3 == 0)  
+          {
+            price = (qty/3) * 5;
+          }
+          //  else if (qty % 3 != 0) 
           // {
           //   price = (basePastry * (qty-1)) - ((qty/3) * basePastry) + basePastry;
           // }
