@@ -29,7 +29,7 @@ namespace Bakery.Tests
     {
     Bread tester = new Bread();
     int price = tester.GetPrice(2);
-    Assert.AreEqual(5, price);
+    Assert.AreEqual(10, price);
     }
 
     [TestMethod]
@@ -45,7 +45,7 @@ namespace Bakery.Tests
     {
     Bread tester = new Bread();
     int price = tester.GetPrice(4);
-    Assert.AreEqual(10, price);
+    Assert.AreEqual(15, price);
     }
 
 
@@ -53,5 +53,5 @@ namespace Bakery.Tests
   }
 }
 
-
-// Pastry: Buy 1 for $2 or 3 for $5.
+// - Bread: Buy 2, get 1 free. A single loaf costs $5.
+// - Pastry: Buy 1 for $2 or 3 for $5.

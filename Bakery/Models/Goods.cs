@@ -18,13 +18,18 @@ namespace Bakery.Models
           }
           else if (qty == 2)
           {
-            price = 5;
+            price = 10;
           }
-          else if (qty % 3 == 0)
+          else if (qty % 3 == 0)  // works for qty of 3 & 6
           {
             price = (basePrice * qty) - ((qty/3) * basePrice);
           }
-           else 
+           else if (qty % 3 != 0) // test for qty 4, 5, 7
+          {
+            price = (basePrice * (qty-1)) - ((qty/3) * basePrice) + basePrice;
+;
+          }
+          else 
           {
             price = 0;
           }
@@ -36,4 +41,7 @@ namespace Bakery.Models
     }
   }
 }
+
+// - Bread: Buy 2, get 1 free. A single loaf costs $5.
+// - Pastry: Buy 1 for $2 or 3 for $5.
 
