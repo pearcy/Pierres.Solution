@@ -7,10 +7,10 @@ namespace Bakery.Models
   {
     int price = 0;
 
-    public int GetPrice(int qty)
+    public int GetBreadPrice(int qty)
     {
 
-      int basePrice = 5; 
+      int baseBread = 5; 
       
         if (qty == 1)
           {
@@ -22,24 +22,57 @@ namespace Bakery.Models
           }
           else if (qty % 3 == 0)  // works for qty of 3 & 6
           {
-            price = (basePrice * qty) - ((qty/3) * basePrice);
+            price = (baseBread * qty) - ((qty/3) * baseBread);
           }
            else if (qty % 3 != 0) // test for qty 4, 5, 7
           {
-            price = (basePrice * (qty-1)) - ((qty/3) * basePrice) + basePrice;
-;
+            price = (baseBread * (qty-1)) - ((qty/3) * baseBread) + baseBread;
           }
           else 
           {
             price = 0;
           }
 
+      return price;
+  
+    }
+  }
 
+    public class Pastry
+  {
+    int price = 0;
+
+    public int GetPastryPrice(int qty)
+    {
+
+      int basePastry = 2; 
+      
+        if (qty == 1)
+          {
+            price = 0;
+          }
+          // else if (qty == 2)
+          // {
+          //   price = 4;
+          // }
+          // else if (qty % 3 == 0)  // works for qty of 3 & 6
+          // {
+          //   price = (basePastry * qty) - ((qty/3) * basePastry);
+          // }
+          //  else if (qty % 3 != 0) // test for qty 4, 5, 7
+          // {
+          //   price = (basePastry * (qty-1)) - ((qty/3) * basePastry) + basePastry;
+          // }
+          else 
+          {
+            price = 0;
+          }
 
       return price;
   
     }
   }
+
 }
 
 // - Bread: Buy 2, get 1 free. A single loaf costs $5.
