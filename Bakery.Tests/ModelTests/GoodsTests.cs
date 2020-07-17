@@ -7,13 +7,23 @@ namespace Bakery.Tests
   [TestClass]
   public class BakeryTests
   {
+
     [TestMethod]
     public void Bakery_GetPrice_BreadPrice()
     {
-    Bread tester = new Bread();
-    int qty = tester.GetPrice("one");
-    Assert.AreEqual(5, qty)
+      Bread tester = new Bread();
+      Assert.AreEqual(typeof(Bread), tester.GetType());
     }
+
+
+
+    // [TestMethod]
+    // public void Bakery_GetPrice_BreadPrice()
+    // {
+    // Bread tester = new Bread();
+    // int qty = tester.GetPrice("one");
+    // Assert.AreEqual(5, qty)
+    // }
 
 
 

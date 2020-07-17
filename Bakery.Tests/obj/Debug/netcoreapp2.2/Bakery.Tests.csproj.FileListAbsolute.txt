@@ -2,3 +2,16 @@
 /Users/pearcy/epicode2/8week/Pierre.Solution/Bakery.Tests/obj/Debug/netcoreapp2.2/Bakery.Tests.csproj.CoreCompileInputs.cache
 /Users/pearcy/epicode2/8week/Pierre.Solution/Bakery.Tests/obj/Debug/netcoreapp2.2/Bakery.Tests.AssemblyInfoInputs.cache
 /Users/pearcy/epicode2/8week/Pierre.Solution/Bakery.Tests/obj/Debug/netcoreapp2.2/Bakery.Tests.AssemblyInfo.cs
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery.Tests/bin/Debug/netcoreapp2.2/Bakery.Tests.deps.json
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery.Tests/bin/Debug/netcoreapp2.2/Bakery.Tests.runtimeconfig.json
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery.Tests/bin/Debug/netcoreapp2.2/Bakery.Tests.runtimeconfig.dev.json
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery.Tests/bin/Debug/netcoreapp2.2/Bakery.Tests.dll
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery.Tests/bin/Debug/netcoreapp2.2/Bakery.Tests.pdb
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery.Tests/bin/Debug/netcoreapp2.2/Bakery.dll
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery.Tests/bin/Debug/netcoreapp2.2/Bakery.pdb
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery.Tests/obj/Debug/netcoreapp2.2/Bakery.Tests.csproj.CopyComplete
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery.Tests/obj/Debug/netcoreapp2.2/Bakery.Tests.dll
+/Users/pearcy/epicode2/8week/Pierre.Solution/Bakery.Tests/obj/Debug/netcoreapp2.2/Bakery.Tests.pdb
