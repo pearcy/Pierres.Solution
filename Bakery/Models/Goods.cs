@@ -5,13 +5,13 @@ namespace Bakery.Models
 {
   public class Bread
   {
-    int qty = 0;
-    public int GetPrice(int qty)
+    int price = 0;
+    public int GetPrice(string qty)
     {
       
-      int price = 0; 
+      // int price = 0; 
       
-        if (qty == 1)
+        if (qty == "one")
           {
             price = 5;
           }

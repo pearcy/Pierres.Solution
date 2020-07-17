@@ -8,20 +8,20 @@ namespace Bakery.Tests
   public class BakeryTests
   {
 
-    [TestMethod]
-    public void Bakery_GetPrice_BreadPrice()
-    {
-      Bread tester = new Bread();
-      Assert.AreEqual(typeof(Bread), tester.GetType());
-    }
+    // [TestMethod]
+    // public void Bakery_GetPrice_BreadPrice()
+    // {
+    //   Bread tester = new Bread();
+    //   Assert.AreEqual(typeof(Bread), tester.GetType());
+    // }
 
 
     [TestMethod]
     public void Bakery_GetPrice_BreadPrice()
     {
     Bread tester = new Bread();
-    int qty = tester.GetPrice(1);
-    Assert.AreEqual(5, qty);
+    int price = tester.GetPrice("one");
+    Assert.AreEqual(5, price);
     }
 
 
