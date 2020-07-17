@@ -9,6 +9,8 @@ namespace Bakery.Models
 
     public int GetPrice(int qty)
     {
+
+      int basePrice = 5; 
       
         if (qty == 1)
           {
@@ -18,7 +20,11 @@ namespace Bakery.Models
           {
             price = 5;
           }
-          else 
+          else if (qty % 3 == 0)
+          {
+            price = (basePrice * qty) - ((qty/3) * basePrice);
+          }
+           else 
           {
             price = 0;
           }
