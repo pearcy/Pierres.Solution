@@ -80,6 +80,14 @@ namespace Bakery.Tests
     Assert.AreEqual(2, price);
     }
 
+     [TestMethod]
+    public void Bakery_GetPastryPrice_PastryPrice2()
+    {
+    Pastry tester = new Pastry();
+    int price = tester.GetPastryPrice(2);
+    Assert.AreEqual(4, price);
+    }
+
 
 
   }
