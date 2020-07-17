@@ -32,13 +32,22 @@ namespace Bakery.Tests
     Assert.AreEqual(5, price);
     }
 
-       [TestMethod]
+    [TestMethod]
     public void Bakery_GetPrice_BreadPrice3()
     {
     Bread tester = new Bread();
     int price = tester.GetPrice(3);
     Assert.AreEqual(10, price);
     }
+
+   [TestMethod]
+    public void Bakery_GetPrice_BreadPrice4()
+    {
+    Bread tester = new Bread();
+    int price = tester.GetPrice(4);
+    Assert.AreEqual(10, price);
+    }
+
 
 
   }
