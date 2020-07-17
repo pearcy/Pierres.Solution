@@ -6,12 +6,11 @@ namespace Bakery.Models
   public class Bread
   {
     int price = 0;
-    public int GetPrice(string qty)
+    
+    public int GetPrice(int qty)
     {
       
-      // int price = 0; 
-      
-        if (qty == "one")
+        if (qty == 1)
           {
             price = 5;
           }
