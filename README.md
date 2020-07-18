@@ -37,7 +37,7 @@ Pierre offers the following deals:
 |    How many Pastries?   |  2  |  $4 | 
 |    How many Pastries?   |  3  |  $5 | 
 |    How many Pastries?   |  4  |  $7 | 
-|    Wait, that not all!   |   |   | 
+|    Wait, thats not all!   |   |   | 
 |    Order 2 loaves of bread & 1 pastry   | 2,1  | $12 | 
 |   Don't leave, Stay awhile.  Breath into the nostrils of the code, it's soothing.    |   |   | 
 |   Just kidding,  Get out of here!   |   |   | 
