@@ -27,6 +27,8 @@ Pierre offers the following deals:
 
 | Behavior | Input | Output |
 | -------- | ----- | ------ |
+|    Welcome message   |  nada  |  nada | 
+|    Specials message  |  nada  |  nada | 
 |    How many loafs of Bread?   |  1  |  $5 | 
 |    How many loafs of Bread?   |  2  |  $5 | 
 |    How many loafs of Bread?   |  3  |  $10 | 
@@ -35,7 +37,10 @@ Pierre offers the following deals:
 |    How many Pastries?   |  2  |  $4 | 
 |    How many Pastries?   |  3  |  $5 | 
 |    How many Pastries?   |  4  |  $7 | 
-
+|    Wait, that not all!   |   |   | 
+|    Order 2 loaves of bread & 1 pastry   | 2,1  | $12 | 
+|   Don't leave, Stay awhile.  Breath into the nostrils of the code, it's soothing.    |   |   | 
+|   Just kidding,  Get out of here!   |   |   | 
 
 
 ## Setup/Installation Requirements
