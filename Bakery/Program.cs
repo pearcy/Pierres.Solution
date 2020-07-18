@@ -23,7 +23,7 @@ namespace Bakery
        int pricePastry = newPastry.GetPastryPrice(inputPastry);
 
 
-      Console.WriteLine("Your total is: $ ");
+      Console.WriteLine("Your total is: $ " + (priceBread + pricePastry));
 
 
       
