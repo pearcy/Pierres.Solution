@@ -5,7 +5,7 @@ namespace Bakery.Models
 {
   public class Bread
   {
-    int price = 0;
+    int priceBread = 0;
 
     public int GetBreadPrice(int qty)
     {
@@ -14,33 +14,33 @@ namespace Bakery.Models
       
         if (qty == 1)
           {
-            price = 5;
+            priceBread = 5;
           }
           else if (qty == 2)
           {
-            price = 10;
+            priceBread = 10;
           }
           else if (qty % 3 == 0)  
           {
-            price = (baseBread * qty) - ((qty/3) * baseBread);
+            priceBread = (baseBread * qty) - ((qty/3) * baseBread);
           }
            else if (qty % 3 != 0) 
           {
-            price = (baseBread * (qty-1)) - ((qty/3) * baseBread) + baseBread;
+            priceBread = (baseBread * (qty-1)) - ((qty/3) * baseBread) + baseBread;
           }
           else 
           {
-            price = 0;
+            priceBread = 0;
           }
 
-      return price;
+      return priceBread;
   
     }
   }
 
     public class Pastry
   {
-    int price = 0;
+    int pricePastry = 0;
 
     public int GetPastryPrice(int qty)
     {
@@ -49,26 +49,26 @@ namespace Bakery.Models
       
         if (qty == 1)
           {
-            price = 2;
+            pricePastry = 2;
           }
           else if (qty == 2)
           {
-            price = 4;
+            pricePastry = 4;
           }
           else if (qty % 3 == 0)  
           {
-            price = (qty/3) * 5;
+            pricePastry = (qty/3) * 5;
           }
            else if (qty % 3 != 0) 
           {
-            price = ((qty-1)/3)*5+basePastry;
+            pricePastry = ((qty-1)/3)*5+basePastry;
           }
           else 
           {
-            price = 0;
+            pricePastry = 0;
           }
 
-      return price;
+      return pricePastry;
   
     }
   }
