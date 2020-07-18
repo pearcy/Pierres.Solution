@@ -1,5 +1,6 @@
 using System;
 using Bakery.Models;
+using System.Collections.Generic;
 
 namespace Bakery
 {
@@ -10,20 +11,18 @@ namespace Bakery
       Console.WriteLine("Welcome to Pierre's Bakery");
       Console.WriteLine("Each loaf of bread is $5 but we have a bread special - buy 2, get 1 free.");
       Console.WriteLine("Each pastry is $2 or get 3 for $5");
-       Console.WriteLine("Enter the number of Bread loaves");
-       int breadOrder = int.Parse(Console.ReadLine());
-       Console.WriteLine("Enter the number of Pastries");
-       int pastryOrder = int.Parse(Console.ReadLine());
-       Bread bread = new Bread(breadOrder);
-       bread.GetBreadPrice = breadOrder;
-       Pastry pastry = new Pastry(pastryOrder);
+      Console.WriteLine("Enter the number of Bread loaves");
+     
+      int input = int.Parse(Console.ReadLine());
+      Bread newInput = new Bread();
 
-       Console.WriteLine ("Your total price is " + (bread.GetBreadPrice() + pastry.GetPastryPrice()));
-
-
-
-
+      int price = newInput.GetBreadPrice(input);
   
+
+      //  Console.WriteLine ("Your total is " + (price.GetBreadPrice()));
+       Console.WriteLine("Your total is: $ " + price);
+
+
       
 
     

@@ -109,5 +109,3 @@ namespace Bakery.Tests
   }
 }
 
-
-// - Pastry: Buy 1 for $2 or 3 for $5.
