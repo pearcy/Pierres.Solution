@@ -49,7 +49,8 @@ Pierre offers the following deals:
 2. Open the downloaded directory in a text editor of your choice.
   (VSCode, Atom, etc.)
 3. To install the REPL dotnet script, run dotnet tool install -g dotnet-script in your terminal.
-4. Run the program with the command dotnet build.
+4. Once in the directory run the command $ dotnet build
+5. Run program with $ dotnet run
 
 ## Known Bugs
 
