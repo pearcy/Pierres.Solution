@@ -14,13 +14,13 @@ namespace Bakery
 
       Console.WriteLine("Enter the number of Bread loaves");
       int inputBread = int.Parse(Console.ReadLine());
-      Bread newBread = new Bread();
-      int priceBread = newBread.GetBreadPrice(inputBread);
+      Bread newBread = new Bread(inputBread);
+      int priceBread = newBread.GetBreadPrice();
 
        Console.WriteLine("Enter the number of Pastries");
        int inputPastry = int.Parse(Console.ReadLine());
-       Pastry newPastry = new Pastry();
-       int pricePastry = newPastry.GetPastryPrice(inputPastry);
+       Pastry newPastry = new Pastry(inputPastry);
+       int pricePastry = newPastry.GetPastryPrice();
 
 
       Console.WriteLine("Your total is: $ " + (priceBread + pricePastry));
