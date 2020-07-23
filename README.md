@@ -40,7 +40,6 @@ Pierre offers the following deals:
 |    Wait, thats not all!   |   |   | 
 |    Order 2 loaves of bread & 1 pastry   | 2,1  | $12 | 
 |   Don't leave, Stay awhile.  Breath into the nostrils of the code, it's soothing.    |   |   | 
-|   Just kidding,  Get out of here!   |   |   | 
 
 
 ## Setup/Installation Requirements
